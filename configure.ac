@@ -248,6 +248,7 @@ AnimationSetup/meta/Makefile
 
 Blindscan/Makefile
 Blindscan/src/Makefile
+Blindscan/images/Makefile
 Blindscan/meta/Makefile
 Blindscan/po/Makefile
 
