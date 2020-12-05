@@ -3,26 +3,20 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ims\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-29 00:27+0100\n"
-"PO-Revision-Date: 2012-05-22 01:01+0100\n"
-"Last-Translator: jerry <jerry00@quick.cz>\n"
+"POT-Creation-Date: 2018-07-30 19:14+0200\n"
+"PO-Revision-Date: 2016-05-07 13:04+0200\n"
+"Last-Translator: neoatomic <neoatomic@users.noreply.github.com>\n"
 "Language-Team: jerry00 <jerry00@quick.cz>\n"
-"Language: Czech\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: Czech\n"
-"X-Poedit-Country: CZECH REPUBLIC\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Poedit 1.8.7\n"
 
 msgid ""
 "\n"
 "Second slot dual tuner may not be supported blind scan."
-msgstr ""
-
-msgid ""
-"\n"
-"WARNING! Blind scan may make the tuner malfunction on a VU+ and ET receiver. A reboot afterwards may be required to return to proper tuner function."
 msgstr ""
 
 msgid ""
@@ -38,7 +32,7 @@ msgstr ""
 msgid " tuner."
 msgstr "Tuner"
 
-msgid "\"channel scan\" searches for channels and saves them to your receiver; \"transponder scan\" does a transponder search and displays the results allowing user to select some or all transponder. Both options save the results in satellites.xml format under /tmp"
+msgid "\"channel scan\" searches for channels and saves them to your receiver; both options do a transponder search and save the result in /tmp in an XML file in satellites.xml format"
 msgstr ""
 
 #, python-format
@@ -57,16 +51,11 @@ msgstr ""
 msgid "%dMHz scanned"
 msgstr ""
 
-msgid "AUTOMATICALLY start service searching, press green to change"
+msgid "AUTOMATICALLY start service searching, press green to change."
 msgstr ""
 
 msgid "Accuracy (higher is better)"
 msgstr ""
-
-#
-#, fuzzy
-msgid "Another type"
-msgstr "Typ hledání"
 
 msgid "Blind scan"
 msgstr ""
@@ -77,18 +66,11 @@ msgstr ""
 msgid "Blind scan state"
 msgstr ""
 
-msgid "Blindscan is not supported in "
-msgstr ""
-
-msgid "CAUTION: If you select \"yes\" the scan will not remove \"duplicated\" transponders from the list. Default is \"no\". Only change this if you understand why you are doing it."
-msgstr ""
-
 #
-#, fuzzy
-msgid "CAUTION: If you select \"yes\" the scan will not sync with transponders listed in satellites.xml. Default is \"no\". Only change this if you understand why you are doing it."
-msgstr "Když vyberete \"ano\" prohledají se pouze transpondéry, které nejsou uvedeny v satellites.xml"
+msgid "Blindscan"
+msgstr ""
 
-msgid "Cancel"
+msgid "Blindscan is not supported in "
 msgstr ""
 
 #
@@ -98,8 +80,10 @@ msgstr "Smazat před skenováním"
 #, fuzzy, python-format
 msgid ""
 "Current Status: %d/%d\n"
-"Satellite: %s\n"
-"Polarization: %s  Frequency range: %d - %d MHz  Symbol rates: %d - %d MHz"
+"   Satellite: %s\n"
+"   Polarization: %s\n"
+"   Frequency range: %d - %d MHz\n"
+"   Symbol rates: %d - %d MHz"
 msgstr ""
 "Hledám dostupné tranďáky.\n"
 "Zabere to nějaký čas.\n"
@@ -116,20 +100,6 @@ msgstr ""
 msgid "DVB-S only"
 msgstr ""
 
-msgid "Deselect all"
-msgstr ""
-
-msgid "Disable remove duplicates"
-msgstr ""
-
-#
-#, fuzzy
-msgid "Disable sync with known transponders"
-msgstr "Pouze neznámé tranďáky"
-
-msgid "Dreambox type"
-msgstr ""
-
 #
 msgid "Exit"
 msgstr "Ukončit"
@@ -138,20 +108,27 @@ msgstr "Ukončit"
 msgid "Filter out adjacent satellites"
 msgstr "Filtrovat sousední satelity"
 
+msgid "Frequency values must be between 10700 MHz and 12749 MHz"
+msgstr ""
+
+msgid "Frequency values must be between 10701 MHz and 12750 MHz"
+msgstr ""
+
 #
-#, fuzzy, python-format
-msgid "Frequency values must be between %d MHz and %d MHz"
+#, fuzzy
+msgid "Frequency values must be between 117000 MHz and 12749 MHz (Circular-band)"
 msgstr "Frekvence musí být mezi 10700 a 12750 (nebo 3000 a 4200 v případě satelitu v C-pásmu)"
 
 #
 #, fuzzy
+msgid "Frequency values must be between 11701 MHz and 12750 MHz (Circular-band)"
+msgstr "Frekvence musí být mezi 10700 a 12750 (nebo 3000 a 4200 v případě satelitu v C-pásmu)"
+
 msgid "Frequency values must be between 3000 MHz and 4199 MHz (C-band)"
-msgstr "Frekvence musí být mezi 10700 a 12750 (nebo 3000 a 4200 v případě satelitu v C-pásmu)"
+msgstr ""
 
-#
-#, fuzzy
 msgid "Frequency values must be between 3001 MHz and 4200 MHz (C-band)"
-msgstr "Frekvence musí být mezi 10700 a 12750 (nebo 3000 a 4200 v případě satelitu v C-pásmu)"
+msgstr ""
 
 #, python-format
 msgid "Hardware blind scan is not supported by this tuner (%s)!"
@@ -163,12 +140,10 @@ msgid "Horizontal"
 msgstr "horizontální"
 
 #
-#, fuzzy
-msgid "If you select \"yes\" all channels on the satellite being search will be deleted before starting the current search, yes (keep feeds) means the same but hold all feed services/transponders."
+msgid "If you select \"yes\" all channels on the satellite being search will be deleted before starting the current search."
 msgstr "Když vyberete \"ano\" všechny kanály na satelitu budou před zahájením hledání odstraněny "
 
 #
-#, fuzzy
 msgid "If you select \"yes\" the scan will only save channels that are not encrypted; \"no\" will find encrypted and non-encrypted channels."
 msgstr "Když vyberete \"ano\" vyhledají se pouze nekódované kanály;\"ne\" vyhledají se free i kódované kanály"
 
@@ -176,24 +151,20 @@ msgstr "Když vyberete \"ano\" vyhledají se pouze nekódované kanály;\"ne\" v
 msgid "If you select \"yes\" the scan will only search transponders not listed in satellites.xml"
 msgstr "Když vyberete \"ano\" prohledají se pouze transpondéry, které nejsou uvedeny v satellites.xml"
 
-msgid "It seems manufacturer does not support blind scan for this tuner."
-msgstr ""
-
-msgid "LNB of current satellite not compatible with plugin"
-msgstr ""
-
 msgid ""
 "Looking for available transponders.\n"
 "This will take a long time, please be patient."
 msgstr ""
 
-msgid "MANUALLY start service searching, press green to change"
+msgid ""
+"Looking for available transponders.\n"
+"This will take a short while."
+msgstr ""
+
+msgid "MANUALLY start service searching, press green to change."
 msgstr ""
 
 msgid "Maybe the reason that recording is currently running."
-msgstr ""
-
-msgid "Moving to "
 msgstr ""
 
 msgid "Network scan"
@@ -239,9 +210,6 @@ msgstr "Jen volné"
 msgid "Only scan unknown transponders"
 msgstr "Pouze neznámé tranďáky"
 
-msgid "Open xml file"
-msgstr ""
-
 #
 msgid "Please setup your tuner configuration."
 msgstr "Nastavte konfiguraci tuneru."
@@ -256,36 +224,27 @@ msgstr "Zeleným/OK začne skenování"
 
 #
 #, fuzzy
-msgid "Press OK to start the scan"
+msgid "Press OK to start the scan."
 msgstr "Zeleným/OK začne skenování"
 
 #
 #, fuzzy
-msgid "Press green to start service searching!"
+msgid "Press green to start service searching."
 msgstr "Zeleným/OK začne skenování"
-
-msgid "Rotor: "
-msgstr ""
 
 #
 msgid "Satellite"
 msgstr "Satelit"
 
 #
-#, fuzzy
-msgid "Satellite blind scan"
-msgstr "Satelit"
-
 msgid "Scan"
-msgstr ""
+msgstr "Hledat"
 
 msgid "Scan Step in MHz(TBS5925)"
 msgstr ""
 
-#
-#, fuzzy
 msgid "Scan satellites for new transponders"
-msgstr "Pouze neznámé tranďáky"
+msgstr ""
 
 #
 msgid "Scan start frequency"
@@ -302,22 +261,6 @@ msgstr "Hledat do frekvence"
 #
 msgid "Scan stop symbolrate"
 msgstr "Hledat do symb.ryhlosti"
-
-#
-#, fuzzy
-msgid "Scan unknown error!"
-msgstr "Pouze neznámé tranďáky"
-
-#, fuzzy, python-format
-msgid ""
-"Search completed\n"
-"%d transponders found in %d:%02d minutes.\n"
-"Details saved in: %s"
-msgstr ""
-"Prohledáno. %d nalezených tranďáků.\n"
-"\n"
-"Podrobnosti ulož. v:\n"
-"%s"
 
 #, python-format
 msgid ""
@@ -339,30 +282,14 @@ msgstr "Typ hledání"
 msgid "Select a tuner that is configured for the satellite you wish to search"
 msgstr "Vyberte tuner na satelitu, který chcete prohledat"
 
-msgid "Select all"
-msgstr ""
-
 #
 msgid "Select the satellite you wish to search"
 msgstr "Vyberte satelit, který chcete prohledat"
-
-msgid ""
-"Select transponders and press green to scan.\n"
-"Press yellow to select all transponders and blue to deselect all."
-msgstr ""
-
-#
-#, fuzzy
-msgid "Select type for scan:"
-msgstr "Smazat před skenováním"
 
 msgid "Smaller steps takes longer but scan is more thorough"
 msgstr ""
 
 msgid "Sorry, this tuner is in use."
-msgstr ""
-
-msgid "Start scan"
 msgstr ""
 
 #, python-format
@@ -404,7 +331,6 @@ msgid "Vertical"
 msgstr "vertikální"
 
 #
-#, fuzzy
 msgid "When a neighbouring satellite is very strong this avoids searching transponders known to be coming from the neighbouring satellite."
 msgstr "Když je sousední satelit velmi silný ,zabrání se tím hledání transpondérů ze sousedního satelitu"
 
@@ -413,20 +339,15 @@ msgid "circular left"
 msgstr "levá kruhová (polarizace)"
 
 #
-#, fuzzy
-msgid "circular left/right"
-msgstr "pravá kruhová (polarizace)"
-
-#
 msgid "circular right"
 msgstr "pravá kruhová (polarizace)"
+
+msgid "circular right & circular left"
+msgstr ""
 
 #
 msgid "circular right and circular left"
 msgstr "pravá kruhová a levá kruhová "
-
-msgid "don't scan"
-msgstr ""
 
 #
 msgid "horizontal"
@@ -440,17 +361,9 @@ msgstr "ne"
 msgid "save to XML file"
 msgstr "uložit do souboru XML"
 
-msgid "scan"
-msgstr ""
-
 #
 msgid "scan for channels"
 msgstr "hledám kanály"
-
-#
-#, fuzzy
-msgid "scan for transponders"
-msgstr "Pouze neznámé tranďáky"
 
 #
 msgid "up to 1 degree"
